@@ -141,6 +141,7 @@ a:visited {
 }
 
 .menu {
+  display: flex;
   max-width: 250px;
   max-height: auto;
   background-color: white;
@@ -202,3 +203,49 @@ a:visited {
   margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */
+
+.yourproducts {
+  margin-left: 120px;
+  margin-top: 20px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.yourproductlist {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: white;
+  border: 1px solid #D4D9E2;
+  border-radius: 6px;
+  width: auto;
+
+}
+
+.productcontainer {
+  
+}
+
+.plists {
+  display: block;
+  margin-left: 20px;
+
+}
+
+.library {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #060628;
+}
+
+.version {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  font-weight: 200;
+  color: #596377;
+}
+
