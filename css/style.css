@@ -1,0 +1,204 @@
+body {
+  background-color: #FAFAFA;
+  margin: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navBar {
+  background-color: white;
+  border-bottom: 1px solid #E5E5E5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navBar ul.primaryNav {
+  list-style-type: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBar ul.primaryNav .logo {
+  margin-right: 20px;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  pointer-events: none;
+}
+
+.navBar ul.primaryNav li {
+  margin-right: 20px;
+  margin-top: 10px;
+  display: block;
+  background-color: none;
+}
+
+.navBar .secondaryNav {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBar .secondaryNav .accessVpp {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D4D9E2;
+  border-radius: 6px;
+  margin-right: 20px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.username {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.accountdropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-left: 1px solid #D4D9E2;
+  border-right: 1px solid #D4D9E2;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+.accountdropdown li {
+  list-style-type: none;
+  display: block;
+}
+
+.chevron_down {
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  max-width: 150px;
+}
+
+a:hover {
+  display: block;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  color: grey;
+  max-width: 150px;
+}
+
+a:visited {
+  display: block;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  max-width: 150px;
+}
+
+.menu {
+  max-width: 250px;
+  max-height: auto;
+  background-color: white;
+  border-right: 1px solid #D4D9E2;
+}
+
+.menuheading {
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: lightgray;
+  max-height: 100%;
+}
+
+.menuheading .downloads {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menuheading .downloads .downloadlist {
+  display: block;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #060628;
+  font-weight: 500;
+  margin-left: 0px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.menuheading .downloads .downloadlist li {
+  margin-bottom: 15px;
+}
+
+.menuheading .products {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menuheading .productlist {
+  display: block;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #060628;
+  font-weight: 500;
+  margin-left: 0px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.menuheading .productlist li {
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,216 @@
+body {
+    background-color:#FAFAFA;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navBar {
+    background-color: white;
+    border-bottom: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+   
+
+
+    ul.primaryNav {
+        list-style-type: none;
+        text-decoration: none;
+        display: flex;
+        margin-right: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        align-items: center;
+        
+        
+        
+        .logo {
+            margin-right: 20px;
+            cursor: pointer;
+            align-items: center;
+            padding-left: 0px;
+            padding-bottom: 0px;
+            pointer-events: none ;
+        }
+
+        li {
+            margin-right: 20px;
+            margin-top: 10px;
+            display: block;
+            background-color: none;
+            
+        }
+
+
+    }
+
+    .secondaryNav {
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 0px;         
+            align-items: center;   
+        
+
+
+            .accessVpp {
+                background-color: rgb(255, 255, 255);
+                border-style: solid;
+                border-width: 1px;
+                border-color: #D4D9E2;
+                border-radius: 6px;
+                margin-right: 20px;
+                list-style-type: none;
+                padding-left: 0px;
+
+            }
+
+            
+
+
+    }
+
+  
+    
+   
+
+}
+
+.username {
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+.accountdropdown {
+display: flex;
+border-left: 1px solid #D4D9E2;
+border-right: 1px solid #D4D9E2;
+margin-left: 0px;
+padding-left: 0px;
+padding-right: 20px;
+
+        li {
+            list-style-type: none;
+            display: block;
+
+        }
+
+}
+
+.chevron_down {
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    max-width: 150px;
+}
+a:hover {
+    display: block;
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    color: grey;
+    max-width: 150px;
+  }
+
+  a:visited {
+    display: block;
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    max-width: 150px;
+  }
+
+
+.menu {
+    max-width: 250px;
+    max-height: auto;
+    background-color: white;
+    border-right: 1px solid #D4D9E2;
+}
+
+.menuheading {
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    color: lightgray;
+    max-height: 100%;
+    
+    .downloads {
+        text-decoration: none;
+        list-style-type: none;
+
+        .downloadlist {
+            display: block;
+            list-style-type: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #060628;
+            font-weight: 500;
+            margin-left: 0px;
+            padding-left: 5px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+
+            li {
+                margin-bottom: 15px;
+            }
+
+        }
+    }
+    .products {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .productlist {
+        display: block;
+            list-style-type: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #060628;
+            font-weight: 500;
+            margin-left: 0px;
+            padding-left: 5px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+
+            li {
+                margin-bottom: 15px;
+            }
+
+          
+    }
+}
+
+
+
+
+
+
+
