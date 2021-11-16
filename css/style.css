@@ -6,12 +6,46 @@ body {
 }
 
 
+
 /* Buttons */
 
 /* CTA */
   /* Primary CTA */
+.primarycta {
+  width: 266px;
+  height: 48px;
+  background-color: #3C43B7;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
 
-  /* Secondary CTA */
+}
+
+/* Tertiary CTA */
+
+ .secondarycta {
+  width: 266px;
+  height: 48px;
+  background-color: white;
+  border: 1px solid #D4D9E2;
+  border-radius: 8px;
+  color: #060628;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+ }
+
+
+  /* Tertiary CTA */
   .navigationbar .navigationvpp .secondarybutton {
     display: block;
     background-color: white;
@@ -63,6 +97,7 @@ body {
     border-radius: 100px;
     vertical-align: middle;
   }
+
 
 
 /* Navigation */
@@ -156,11 +191,12 @@ body {
 }
 
 .maintrunk .images {
-  display: flex;
+  display: relative;
   flex-direction: column;
   background-color: white;
-  width: 830px;
+  width: auto;
   height: 400px;
+  max-width: 836px;
   margin-left: 32px;
   margin-top: 40px;
   border-radius: 8px;
@@ -175,6 +211,7 @@ body {
 .maintrunk .images .productimages .thumbnails {
   display: flex;
   flex-direction: column;
+  width: auto;
 }
 
 .maintrunk .images .productimages .thumbnails .thumbs {
@@ -189,8 +226,8 @@ body {
 }
 
 .maintrunk .images .productimages .heroimage .hero {
-  width: 600px;
-  height: 368px;
+  width: 100%;
+  height: auto;
   border: 1px solid #D4D9E2;
   border-radius: 6px;
   margin-left: 0px;
@@ -207,5 +244,61 @@ body {
   font-weight: 400;
   font-size: 22px;
   color: #060628;
+
+}
+
+.maintrunk .productdetails {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 24px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.maintrunk .productdetails .productinfo {
+  display: flex;
+}
+
+.maintrunk .productdetails .productbuttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.maintrunk .productdetails .information .informationheading{
+  font-weight: 600;
+  font-size: 13px;
+  color: #060628;
+  padding-bottom: 20px;
+  padding-top: 30px;
+
+}
+
+.maintrunk .productdetails .information .informationlinks {
+  font-weight: 600;
+  font-size: 16px;
+  color: #060628;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D4D9E2;
+  display: flex;
+}
+
+.maintrunk .productdetails .information .informationlinks .linkarrow {
+  width: 24px;
+}
+
+.producttitle {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 20px;
+  color: #060628;
+}
+
+.productsub {
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 20px;
+  color: #596377;
 
 }
