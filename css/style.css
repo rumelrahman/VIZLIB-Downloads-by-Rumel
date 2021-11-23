@@ -1,304 +1,296 @@
 body {
-  background-color: #FAFAFA;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 200;
-  color: #596377;
+   background-color: #fafafa;
+   font-family: "IBM Plex Sans", sans-serif;
+   font-weight: 200;
+   color: #596377;
 }
-
-
 
 /* Buttons */
 
 /* CTA */
-  /* Primary CTA */
+/* Primary CTA */
 .primarycta {
-  width: 266px;
-  height: 48px;
-  background-color: #3C43B7;
-  border: none;
-  border-radius: 8px;
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 10px;
-
+   width: 266px;
+   height: 48px;
+   background-color: #3c43b7;
+   border: none;
+   border-radius: 8px;
+   color: white;
+   font-size: 16px;
+   font-weight: 600;
+   margin-left: 0px;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 10px;
 }
 
 /* Tertiary CTA */
 
- .secondarycta {
-  width: 266px;
-  height: 48px;
-  background-color: white;
-  border: 1px solid #D4D9E2;
-  border-radius: 8px;
-  color: #060628;
-  font-size: 16px;
-  font-weight: 600;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 10px;
- }
+.secondarycta {
+   width: 266px;
+   height: 48px;
+   background-color: white;
+   border: 1px solid #d4d9e2;
+   border-radius: 8px;
+   color: #060628;
+   font-size: 16px;
+   font-weight: 600;
+   margin-left: 0px;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 10px;
+}
 
-
-  /* Tertiary CTA */
-  .navigationbar .navigationvpp .secondarybutton {
-    display: block;
-    background-color: white;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 1px solid #D4D9E2;
-    border-radius: 100px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    vertical-align: middle;
-  }
+/* Tertiary CTA */
+.navigationbar .navigationvpp .secondarybutton {
+   display: block;
+   background-color: white;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border: 1px solid #d4d9e2;
+   border-radius: 100px;
+   font-family: "IBM Plex Sans", sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+   vertical-align: middle;
+}
 
 /* Links */
 
-  /* Primary Links*/
-  .primarylinks {
-    display: relative;
-    background-color: white;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #060628;
-    border: none;
-    margin-left: 18px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 3px;
-    vertical-align: middle;
-  }
+/* Primary Links*/
+.primarylinks {
+   display: relative;
+   background-color: white;
+   font-family: "IBM Plex Sans", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   color: #060628;
+   border: none;
+   margin-left: 18px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 3px;
+   vertical-align: middle;
+}
 
-  .primarylinks:hover {
-    display: relative;
-    background-color: #EEEFF9;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #060628;
-    border: none;
-    margin-left: 18px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 100px;
-    vertical-align: middle;
-  }
-
-
+.primarylinks:hover {
+   display: relative;
+   background-color: #eeeff9;
+   font-family: "IBM Plex Sans", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   color: #060628;
+   border: none;
+   margin-left: 18px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 100px;
+   vertical-align: middle;
+}
 
 /* Navigation */
 
 .navigationbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 64px;
-  width: 100%;
-  border-bottom: 1px solid #E5E5E5;
-  background-color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 64px;
+   width: 100%;
+   border-bottom: 1px solid #e5e5e5;
+   background-color: white;
 }
 
 .navigationbar .navigationleft {
-  padding-left: 24px;
-  padding-top: 16px;
+   padding-left: 24px;
+   padding-top: 16px;
 }
 
-
 .navigationbar .navigationleft .logo {
-  vertical-align: middle;
+   vertical-align: middle;
 }
 
 .navigationbar .navigationright {
-  display: flex;
-  vertical-align: middle;
-  border-left: 1px solid #E5E5E5;
-  justify-content: space-between;
+   display: flex;
+   vertical-align: middle;
+   border-left: 1px solid #e5e5e5;
+   justify-content: space-between;
 }
 
-.navigationbar .navigationvpp  {
-  margin-left: auto;
-  margin-right: 10px;
-  margin-top: 16px;
- 
+.navigationbar .navigationvpp {
+   margin-left: auto;
+   margin-right: 10px;
+   margin-top: 16px;
 }
 
 .navigationbar .navigationright .accountleft .username {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 800;
-  font-size: 16px;
-  margin-left: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-
+   font-family: "IBM Plex Sans", sans-serif;
+   font-weight: 800;
+   font-size: 16px;
+   margin-left: 10px;
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
 
 .navigationbar .navigationright .accountleft .companyname {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  margin-left: 10px;
-  margin-top: 5px;
-  padding-top: 5px;
-
+   font-family: "IBM Plex Sans", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   margin-left: 10px;
+   margin-top: 5px;
+   padding-top: 5px;
 }
 
 .navigationbar .navigationright .accountright {
-  display: flex;
-  vertical-align: middle;
-  width: 24px;
-  margin-left: 20px;
+   display: flex;
+   vertical-align: middle;
+   width: 24px;
+   margin-left: 20px;
 }
 
-
 .sidemenu {
-  width: 238px;
-  background-color: white;
-  margin: 0px;
-  text-decoration: none;
-  list-style: none;
-  padding-right: 14px;
-  height: 100vh;
-  border-right: 1px solid #E5E5E5;
-
+   width: 238px;
+   background-color: white;
+   margin: 0px;
+   text-decoration: none;
+   list-style: none;
+   padding-right: 14px;
+   height: 100vh;
+   border-right: 1px solid #e5e5e5;
 }
 
 .sidemenu .menutitles {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 600;
-  font-size: 11px;
-  color: #8A8A8E;
-  padding-left: 24px;
-  padding-top: 40px;
-  padding-bottom: 24px;
+   font-family: "IBM Plex Sans", sans-serif;
+   font-weight: 600;
+   font-size: 11px;
+   color: #8a8a8e;
+   padding-left: 24px;
+   padding-top: 40px;
+   padding-bottom: 24px;
 }
 
 .maintrunk {
-  display: flex;
+   display: flex;
 }
 
 .maintrunk .images {
-  display: relative;
-  flex-direction: column;
-  background-color: white;
-  width: auto;
-  height: 400px;
-  max-width: 836px;
-  margin-left: 32px;
-  margin-top: 40px;
-  border-radius: 8px;
+   display: relative;
+   flex-direction: column;
+   background-color: white;
+   width: auto;
+   height: 400px;
+   max-width: auto;
+   margin-left: 32px;
+   margin-top: 40px;
+   border-radius: 8px;
 }
 
-.maintrunk .images .productimages{
-  display: flex;
-  flex-direction: row;
-  margin: 0px;
+.maintrunk .images .productimages {
+   display: flex;
+   flex-direction: row;
+   margin: 0px;
 }
 
 .maintrunk .images .productimages .thumbnails {
-  display: flex;
-  flex-direction: column;
-  width: auto;
+   display: flex;
+   flex-direction: column;
+   width: auto;
 }
 
 .maintrunk .images .productimages .thumbnails .thumbs {
-  width: 179px;
-  height: 108px;
-  margin-left: 16px;
-  margin-top: 16px;
-  margin-right: 16px;
-  justify-content: space-between;
-  border: 1px solid #D4D9E2;
-  border-radius: 6px;
+   width: 179px;
+   height: 108px;
+   margin-left: 16px;
+   margin-top: 16px;
+   margin-right: 16px;
+   justify-content: space-between;
+   border: 1px solid #d4d9e2;
+   border-radius: 6px;
+}
+
+.maintrunk .images .productimages .heroimage {
+   width: 100%;
+   height: auto;
+   margin-right: 20px;
 }
 
 .maintrunk .images .productimages .heroimage .hero {
-  width: 100%;
-  height: auto;
-  border: 1px solid #D4D9E2;
-  border-radius: 6px;
-  margin-left: 0px;
-  margin-top: 16px;
-  margin-right: 16px;
-  margin-bottom: 16px;
-
+   min-width: 580px;
+   max-height: 360px;
+   object-fit: none;
+   width: 100%;
+   height: auto;
+   border: 1px solid #d4d9e2;
+   border-radius: 6px;
+   margin-left: 0px;
+   margin-top: 16px;
+   margin-right: 16px;
+   margin-bottom: 16px;
 }
 
 .maintrunk .images .chartinfo .chartheadline {
-  margin-top: 50px;
-  margin-bottom: 22px;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  color: #060628;
-
+   margin-top: 50px;
+   margin-bottom: 22px;
+   font-family: "IBM Plex Sans", sans-serif;
+   font-weight: 400;
+   font-size: 22px;
+   color: #060628;
 }
 
 .maintrunk .productdetails {
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 24px;
-  display: flex;
-  flex-direction: column;
-  
+   margin-top: 40px;
+   margin-left: 40px;
+   margin-right: 24px;
+   display: flex;
+   flex-direction: column;
 }
 
 .maintrunk .productdetails .productinfo {
-  display: flex;
+   display: flex;
 }
 
 .maintrunk .productdetails .productbuttons {
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
 }
 
-.maintrunk .productdetails .information .informationheading{
-  font-weight: 600;
-  font-size: 13px;
-  color: #060628;
-  padding-bottom: 20px;
-  padding-top: 30px;
-
+.maintrunk .productdetails .information .informationheading {
+   font-weight: 600;
+   font-size: 13px;
+   color: #060628;
+   padding-bottom: 20px;
+   padding-top: 30px;
 }
 
 .maintrunk .productdetails .information .informationlinks {
-  font-weight: 600;
-  font-size: 16px;
-  color: #060628;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #D4D9E2;
-  display: flex;
+   font-weight: 600;
+   font-size: 16px;
+   color: #060628;
+   padding-bottom: 10px;
+   border-bottom: 1px solid #d4d9e2;
+   display: flex;
 }
 
 .maintrunk .productdetails .information .informationlinks .linkarrow {
-  width: 24px;
+   width: 24px;
 }
 
 .producttitle {
-  font-weight: 600;
-  font-size: 20px;
-  margin-left: 20px;
-  color: #060628;
+   font-weight: 600;
+   font-size: 20px;
+   margin-left: 20px;
+   color: #060628;
 }
 
 .productsub {
-  font-weight: 400;
-  font-size: 18px;
-  margin-left: 20px;
-  color: #596377;
-
+   font-weight: 400;
+   font-size: 18px;
+   margin-left: 20px;
+   color: #596377;
 }
